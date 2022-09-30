@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+.leaflet-popup-content-wrapper {
+    padding: 0;
+    overflow: hidden;
+}
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+    margin: 0;
+}
+.leaflet-popup-content-wrapper h4 {
+    padding: 16px;
+    background: red;
+    color: #fff;
+    font-size: 16px;
+}
+.leaflet-popup-content-wrapper p {
+    padding: 0 16px;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.leaflet-popup-content-wrapper .leaflet-popup-content .phone-number {
+    padding: 16px;
+    padding-top: 0;
+}
+.leaflet-popup-content-wrapper .leaflet-popup-content .phone-number a {
+    color:red;
+    font-size: 14px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: relative; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .detailsmodal .modal-content .modal-header{
+    background-color: red;
+  }
+  .detailsmodal .modal-content .detail-wrapper .row{
+    background-color:red;
+    padding-left:10px ;
+    border-bottom: 1px solid;
+    font-size: 15px;
+    font-weight: bold;
+
+  }
+  .detailsmodal .modal-content .modal-body .flag{
+    padding-left: 35%;
+    margin-bottom: 20px;
+    background-color: #ebe7e7;
+  }
+  .modal-content{
+    background-color: #888;
+  }
+  .weathermodal .modal-body{
+background-color: #87CEEB;
+
+  }
+  .weathermodal .modal-body .weather-icon{
+    padding-left: 35%;
+    
+      }
+.weathermodal .modal-content .modal-body .weatherinfo .row{
+        padding-left: 35%;
+        margin-top: 10px;
+        border-bottom: 1px solid green;
+        
+          }
+.weathermodal .modal-content .modal-body .weatherinfo .row p{
+            margin-left: 10px;
+            margin-top: 5px;
+}
+.weathermodal .modal-body{
+    border:1px solid;
+    box-shadow: 5px 5px 5px 5px;
+}
+.curencymodal .modal-content .modal-body{
+    height: 400px;
+    overflow: scroll;
+}
+.curencymodal .modal-content .modal-body p{
+    font-size: 20px;
+    background-color: rgb(219, 219, 219);
+    padding-left: 20px;
+}
+.dropdown-content a{
+    cursor: pointer;
+}
+.container-fluide {
+  position: relative !important;
+}
+.dropdown {
+  position: absolute !important;
+  background: white; /* TODO: Remove this temporary styling */
+  display: inline-block;
+  top: 10px;
+  left: 50%;
+  width: auto;
+  height: 30px;
+  z-index: 1000;
+  text-align:center;
+  border-radius: 2px;
+  border:1px solid;
+}
+@media screen and (max-width:500px) {
+  .dropdown {
+    position: absolute !important;
+    background: white; /* TODO: Remove this temporary styling */
+    display: inline-block;
+    top: 10px;
+    left: 13%;
+    width: auto;
+    height: 30px;
+    z-index: 1000;
+    text-align:center;
+    border-radius: 2px;
+    border:1px solid;
+  }
+  option{
+    width:auto;
+  }
+  
+}
+.dropdown-content {
+  display: none;
+  position: relative !important;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 100;
+  overflow: auto;
+  height: 100px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#map {
+ 
+  margin: 0 0 0 0;
+  height: 100vh;
+  width: 100%;
+  display: block;
+}
