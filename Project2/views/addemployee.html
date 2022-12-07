@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    
+    <title>Add Employees</title>
+</head>
+
+<body>
+    <!-- ADD EMPLOYEE FORM -->
+
+    <form action="" method="POST">
+        <h4 class="heading_4"><a href="../index.html">Dashboard</a></h4>
+        <h1>Please Enter The Details Of The Employees</h1>
+        <div class="container">
+
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label class="form-label mt-3"><strong>First Name:</strong></label>
+                    <input type="text" name="fname" id="fname" class="form-control" placeholder="Enter Employee Name">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label mt-3"><strong>Last Name:</strong></label>
+                    <input type="text" name="lname" id="lname" class="form-control" placeholder="Enter Employee Name">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"><strong>Email:</strong></label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Example@gmail.com">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label mt-3"><strong>Job Title:</strong></label>
+                    <input type="text" name="Jtitle" id="Jtitle" class="form-control" placeholder="Enter Employee job">
+                </div>
+                
+                <label class="form-label"><strong>Departments:</strong></label>
+                <select class="form-select mb-3 selectdept" name="dept" id="dept">
+                    <option value="Select Department" selected disabled>Select Department</option>
+                    
+                   
+                </select>
+                
+                <button type="submit"  class="btn_1" id="addemployee">Add Employee</button>
+                <button class="btn_1"><a href="viewemployees.html" >View Employees</a></button>
+            </div>
+    </form>
+    </div>
+
+
+
+
+
+    
+
+</body>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../js/jquery-2.2.3.min.js"></script>
+<script src="../js/script.js"></script>
+</html>

@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    
+   
+    <title>Add Employees</title>
+</head>
+
+<body>
+    <!-- ADD EMPLOYEE FORM -->
+
+    <form action="" method="POST">
+        <h4 class="heading_4"><a href="../index.html">Dashboard</a></h4>
+        <h1>Please Enter The Details Of The Employees</h1>
+        <div class="container">
+
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label class="form-label mt-3"><strong>First Name:</strong></label>
+                    <input type="text" name="fname" id="fname" class="form-control fname" placeholder="Enter Employee Name">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label mt-3"><strong>Last Name:</strong></label>
+                    <input type="text" name="lname" id="lname" class="form-control lname" placeholder="Enter Employee Name">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"><strong>Email:</strong></label>
+                    <input type="email" name="email" id="email" class="form-control email" placeholder="Example@gmail.com">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label mt-3"><strong>Job Title:</strong></label>
+                    <input type="text" name="Jtitle" id="Jtitle" class="form-control jtitle" placeholder="Enter Employee job">
+                </div>
+                
+                <label class="form-label"><strong>Departments:</strong></label>
+                <select class="form-select mb-3 selectdept" name="dept" id="dept">
+                    <option value="Select Department " class="selecteddept" selected disabled>Select Department</option>
+                    
+                   
+                </select>
+                
+                <button type="button"  class="btn_1"  data-bs-toggle="modal" data-bs-target="#updateconfirmation">Update Employee</button>
+                <button type="button"  class="btn_1" data-bs-toggle="modal" data-bs-target="#confirmationmodal" >Delete</button>
+            </div>
+    </form>
+    </div>
+
+    <div class="modal fade" id="confirmationmodal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Alert!!</h4>
+            </div>
+            <div class="modal-body">
+              <p>Are you sure you want to delete this entry?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger"  id="deleteemployee">Delete</button>
+              <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="modal fade" id="updateconfirmation" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Alert!!</h4>
+            </div>
+            <div class="modal-body">
+              <p>Are you sure you want to update this entry?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger"  id="updateemployee">Update</button>
+              <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+
+
+    
+
+</body>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../js/jquery-2.2.3.min.js"></script>
+<script src="../js/script.js"></script>
+</html>
