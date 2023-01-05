@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 60px;
+}
+.ib{
+    margin-left:2px;
+}
+.tab .addbutton{
+    float: right;
+    background-color: green;
+}
+.main_heading{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    max-height: 60px;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 60px;
+
+}
+.Two_Division{
+    /* background-color: #d1d8e0; */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,22,121,0.49343487394957986) 25%, rgba(0,212,255,1) 100%);
+}
+.Side_Bar{
+    height: 550px;
+     border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Side_Bar h3{
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 6px 6px 10px -10px rgba(255,255,255,0.68);
+-webkit-box-shadow: 6px 6px 10px -10px rgba(255,255,255,0.68);
+-moz-box-shadow: 6px 6px 10px -10px rgba(255,255,255,0.68);
+}
+.Side_Bar .m_icon{
+    font-size: 30px;
+    color: white;
+    
+}
+.Side_Bar h2{
+    margin-top: 50px;
+}
+.Side_Bar h2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 8px;  
+}
+.Side_Bar h2 a:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    color: #09CFFB;
+}
+.Poster{
+    height: 550px;
+    border-left: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.Poster h1{
+    font-size: 100px
+}
+.Poster .WT{
+    background-color: white;
+    color: #09CFFB;
+    height: 120px;
+}
+.Poster .AD{
+    color: black;
+    background-color: bisque;
+    font-size: 70px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* ADD EMPLOYEES */
+
+
+
+.heading_4 a{
+    text-decoration: none;
+    color: white;
+    background-color: #3D3F69;
+    padding: 10px;
+}
+.heading_4 a:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #CAD3C8;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+form .btn_1 a{
+    text-decoration: none;
+    color: white;
+}
+form .btn_1{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #32335C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 3px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+margin-left: 20px;
+margin-bottom: 10px;
+}
+form .btn_1:hover{
+    background-color: #02D3FE;
+    color: white;  
+}
+.upd_btn{
+    width: 80px;
+    height:30px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin: 0px;
+
+    
+}
+.del_btn{
+    width: 80px;
+    height:30px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+
+}
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .active {
+    display: block;
+  }
+  .tab a{
+    text-decoration: none;
+  }
+
+
+/* *********************************** */
+/* -------------MEDIA QUERY---------------- */
+/* *********************************** */
+
+@media screen and (max-width:1280px) {
+    .main_heading{
+        font-size: 30px !important;
+    }
+
+}
+@media screen and (max-width:1072px) {
+    
+    .Side_Bar h2 a{
+        font-size: 20px;
+        
+    }
+}
+@media screen and (max-width:852px) {
+    .main_heading{
+        font-size: 20px !important;
+    }
+
+}
+@media screen and (max-width:727px) {
+    .Poster h1{
+        font-size: 70px
+    }
+    
+    .Poster .AD{
+        font-size: 50px;
+        
+    }
+
+}
+@media screen and (max-width:594px) {
+    form h1{
+        font-size: 25px;
+    }
+    
+   
+}
+@media screen and (max-width:527px) {
+    .Poster h1{
+        font-size: 50px;
+    }
+    
+    .Poster .AD{
+        font-size: 30px;
+        
+    }
+
+}
+
+
