@@ -7,9 +7,10 @@
   */
 
   
-  $receiving_email_address = 'tamer.razheh@yahoo.com';
-  //$from_email = 'tamer.razheh@yahoo.com';
-  $from_email = 'razheht@tamer-software.com';
+  
+  $receiving_email_address = 'tamer.razheh@gmail.com';
+  $from_email = 'tamersof@tamer-software.uk';
+  //$from_email = 'tamersof@tamer-software.uk';
   
 
   
